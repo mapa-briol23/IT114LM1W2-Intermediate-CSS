@@ -23,7 +23,7 @@
     }
 
     50% {
-        scale: 150%
+        scale: 150%;
     }
 
     100% {
@@ -36,10 +36,10 @@ Start with using "from" and "to". Now use "0%" and "100%" as your key frames.
 Set more key frames between 0% and 100%. */
 .todo-1-container .box{
     /* Apply animation here */
-    animation: bob 500ms ease infinite;
+    animation: keyframes 500ms ease infinite;
 }
 
-@keyframes bob {
+@keyframes keyframes {
     from {
         transform: translateX(0px);
     }
@@ -65,28 +65,28 @@ Set more key frames between 0% and 100%. */
 /* Todo 3.2: Try the different timing funcitons such as linear, ease-in, ease-in-out, cubic-bezier, and steps*/
 .todo-2-container .box{
     /* Apply animation here */
-    animation: bob 1500ms cubic-bezier(0.075, 0.82, 0.165, 1) infinite;
+    animation: timing 1500ms cubic-bezier(0.075, 0.82, 0.165, 1) infinite;
+}
 
-    @keyframes bob {
-        from {
-            transform: translateX(0px);
-        }
-    
-        30% {
-            transform: translateX(30px);
-        }
-    
-        50% {
-            transform: translateX(50px);
-        }
-    
-        80% {
-            transform: translateX(80px);
-        }
-    
-        to {
-            transform: translateX(100px)
-        }
+@keyframes timing {
+    from {
+        transform: translateX(0px);
+    }
+
+    30% {
+        transform: translateX(30px);
+    }
+
+    50% {
+        transform: translateX(50px);
+    }
+
+    80% {
+        transform: translateX(80px);
+    }
+
+    to {
+        transform: translateX(100px)
     }
 }
 
