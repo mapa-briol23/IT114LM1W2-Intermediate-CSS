@@ -38,11 +38,8 @@
 /* TODO 1 */
 .todo-1-container {
   /* TODO 1.1.1 Set the display of this div to flex*/
-  display: flex;
   /* TODO 1.1.2 Set the flex direction to row. Then set it to column. What's the difference?*/
-  /* Answer: When the flex-direction is set to row, the boxes or container were align horizontally. 
-            When it was set to column, the boxes were */
-  flex-direction: column;
+  /* Answer: */
   /* TODO 1.1.3 Set the flex direction to row. Then enable flex wrap. What does wrap do? */
   /* Answer: */
   /* Todo 1.1.4 Set the gap of the container to 10px. Now change it to 20px. What does gap do? */
